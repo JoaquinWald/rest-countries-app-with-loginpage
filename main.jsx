@@ -8,7 +8,7 @@ import { RestCountriesApp } from './src/RestCountriesApp';
 
 ReactDOM.createRoot(document.getElementById('app')).render(
   // <React.StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename='/rest-countries-app-with-loginpage/'>
 
     <RestCountriesApp />
 
